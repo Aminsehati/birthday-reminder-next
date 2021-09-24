@@ -1,0 +1,29 @@
+.list{
+    display: flex;
+    align-items: center;
+}
+.list:not(:last-child){
+    margin-bottom: 20px;
+}
+.list .icon{
+    margin-right: 15px;
+}
+.list .icon img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+.list .content{
+    flex: 1 1 0;
+    min-width: 0;
+}
+.list .content h5{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.list .content h6{
+    color: #5D5966;
+    font-size: 14px;
+}
